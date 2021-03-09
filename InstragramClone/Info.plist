@@ -48,8 +48,8 @@
 	</array>
 	<key>UIAppFonts</key>
 	<array>
-		<string>OleoScript-Regular</string>
-		<string>OleoScript-Bold</string>
+		<string>OleoScript-Regular.ttf</string>
+		<string>OleoScript-Bold.ttf</string>
 	</array>
 </dict>
 </plist>

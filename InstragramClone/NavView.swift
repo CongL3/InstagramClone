@@ -20,10 +20,12 @@ struct NavView: View {
 			Spacer()
 			Text("Instagram")
 				.font(.custom("OleoScript-Regular", size: 30))
-			Image("mesages")
+			Image.init("messages")
 				.resizable()
 				.aspectRatio(contentMode: .fit)
-				.frame(width: 12)
+				.frame(width: 30)
+			
+			
 		}
 	}
 }
