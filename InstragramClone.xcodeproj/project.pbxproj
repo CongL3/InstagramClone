@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C900E8325F7FB0600F905D2 /* LikesBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C900E8225F7FB0600F905D2 /* LikesBarView.swift */; };
+		4C900E8825F7FB5700F905D2 /* CommentsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C900E8725F7FB5700F905D2 /* CommentsSectionView.swift */; };
 		4CCF93C425F70605002EA071 /* InstragramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */; };
 		4CCF93C625F70605002EA071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93C525F70605002EA071 /* ContentView.swift */; };
 		4CCF93C825F70609002EA071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF93C725F70609002EA071 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C900E8225F7FB0600F905D2 /* LikesBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesBarView.swift; sourceTree = "<group>"; };
+		4C900E8725F7FB5700F905D2 /* CommentsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsSectionView.swift; sourceTree = "<group>"; };
 		4CCF93C025F70605002EA071 /* InstragramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstragramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstragramCloneApp.swift; sourceTree = "<group>"; };
 		4CCF93C525F70605002EA071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -186,6 +190,8 @@
 			children = (
 				4CCF941E25F72984002EA071 /* PostHeader.swift */,
 				4CCF942625F72CDA002EA071 /* PostBottomBar.swift */,
+				4C900E8225F7FB0600F905D2 /* LikesBarView.swift */,
+				4C900E8725F7FB5700F905D2 /* CommentsSectionView.swift */,
 			);
 			path = Posts;
 			sourceTree = "<group>";
@@ -337,6 +343,8 @@
 				4CCF93C425F70605002EA071 /* InstragramCloneApp.swift in Sources */,
 				4CCF941F25F72984002EA071 /* PostHeader.swift in Sources */,
 				4CCF941625F72081002EA071 /* StoryView.swift in Sources */,
+				4C900E8825F7FB5700F905D2 /* CommentsSectionView.swift in Sources */,
+				4C900E8325F7FB0600F905D2 /* LikesBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

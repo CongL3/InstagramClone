@@ -45,64 +45,9 @@ struct ContentView: View {
 
 									PostBottomBar()
 									
-									HStack {
-										Image("cong")
-											.resizable()
-											.aspectRatio(contentMode: .fit)
-											.frame(width: 18)
-											.clipShape(Circle())
-											.padding(.leading, 10)
-
-										
-										Text("Liked by Cong and 224 others")
-											.font(.system(size: 12))
-									}
+									LikesBarView()
 									
-									VStack(alignment: .leading, spacing: 5) {
-											Text("Alice This is my picture from Hoi An")
-												.font(.system(size: 12))
-												.padding(.leading, 10)
-												
-										HStack {
-											Text("Cong My princess!!!!! <3")
-												.font(.system(size: 12))
-												.padding(.leading, 10)
-											Spacer()
-											Image("heart")
-												.resizable()
-												.aspectRatio(contentMode: .fit)
-												.frame(width: 20)
-												.padding(.trailing, 10)
-										}
-
-										HStack {
-											Text("Cong Tooo cuteeeeeeeeeeeeeeeee")
-												.font(.system(size: 12))
-												.padding(.leading, 10)
-											Spacer()
-											Image("heart")
-												.resizable()
-												.aspectRatio(contentMode: .fit)
-												.frame(width: 20)
-												.padding(.trailing, 10)
-										}
-										Text("view all 10 comments")
-											.font(.system(size: 12))
-											.foregroundColor(.gray)
-											.padding(.leading, 10)
-										
-										HStack {
-											Text("Cong My Baby xD")
-												.font(.system(size: 12))
-												.padding(.leading, 10)
-											Spacer()
-											Image("heart")
-												.resizable()
-												.aspectRatio(contentMode: .fit)
-												.frame(width: 20)
-												.padding(.trailing, 10)
-										}
-									}
+									CommentsSectionView()
 								}
 							}
 						}
