@@ -18,6 +18,7 @@ struct PostHeader: View {
 				.clipShape(Circle())
 				.overlay(Circle()
 							.stroke(Color.pink, lineWidth: 2))
+				.padding(.leading, 10)
 			
 			VStack(alignment: .leading, spacing: 0) {
 				Text(person.name)

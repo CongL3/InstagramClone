@@ -14,18 +14,17 @@ struct StoryView: View {
     var body: some View {
 		VStack(alignment: .leading) {
 			ScrollView(.horizontal, showsIndicators: false) {
-				LazyHStack.init(alignment: .firstTextBaseline, spacing: 10) {
+				LazyHStack.init(alignment: .firstTextBaseline, spacing: 12) {
 					VStack {
 						Image("cong")
 							.resizable()
 							.aspectRatio(contentMode: .fit)
-							.frame(width: 55)
+							.frame(width: 73)
 							.foregroundColor(.gray)
-							.opacity(0.5)
 							.clipShape(Circle())
 							.overlay(Circle()
 										.stroke(Color.clear, lineWidth: 2))
-							.padding(.leading, 20)
+							.padding(.leading, 10)
 
 						Text("Your story")
 							.font(.system(size: 12))
@@ -35,7 +34,7 @@ struct StoryView: View {
 							Image(person.image)
 								.resizable()
 								.aspectRatio(contentMode: .fit)
-								.frame(width: 55)
+								.frame(width: 73)
 								.clipShape(Circle())
 								.overlay(Circle()
 											.stroke(Color.pink, lineWidth: 2))

@@ -12,21 +12,20 @@ struct NavView: View {
 	var colWidth: CGFloat
 	
     var body: some View {
-		LazyVGrid.init(columns: [
-			GridItem(.fixed(colWidth)),
-			GridItem(.fixed(colWidth)),
-			GridItem(.fixed(colWidth))
-		]) {
-			Spacer()
+		HStack() {
 			Text("Instagram")
 				.font(.custom("OleoScript-Regular", size: 30))
+				.padding(.leading, 10)
+
+			Spacer()
 			Image.init("messages")
 				.resizable()
 				.aspectRatio(contentMode: .fit)
 				.frame(width: 30)
-			
-			
+				.padding(.trailing, 10)
 		}
+		.padding(.top, 5)
+		.padding(.bottom, 0)
 	}
 }
 
