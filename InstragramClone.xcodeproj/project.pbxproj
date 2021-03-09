@@ -22,8 +22,8 @@
 		4CCF93FF25F71072002EA071 /* OleoScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF93FD25F71072002EA071 /* OleoScript-Bold.ttf */; };
 		4CCF940D25F717BE002EA071 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF940C25F717BE002EA071 /* Person.swift */; };
 		4CCF941625F72081002EA071 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF941525F72081002EA071 /* StoryView.swift */; };
-		4CCF941F25F72984002EA071 /* PostHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF941E25F72984002EA071 /* PostHeader.swift */; };
-		4CCF942725F72CDA002EA071 /* PostBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF942625F72CDA002EA071 /* PostBottomBar.swift */; };
+		4CCF941F25F72984002EA071 /* PostHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF941E25F72984002EA071 /* PostHeaderView.swift */; };
+		4CCF942725F72CDA002EA071 /* PostBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF942625F72CDA002EA071 /* PostBottomBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,8 +65,8 @@
 		4CCF93FD25F71072002EA071 /* OleoScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OleoScript-Bold.ttf"; sourceTree = "<group>"; };
 		4CCF940C25F717BE002EA071 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		4CCF941525F72081002EA071 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
-		4CCF941E25F72984002EA071 /* PostHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeader.swift; sourceTree = "<group>"; };
-		4CCF942625F72CDA002EA071 /* PostBottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBottomBar.swift; sourceTree = "<group>"; };
+		4CCF941E25F72984002EA071 /* PostHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostHeaderView.swift; sourceTree = "<group>"; };
+		4CCF942625F72CDA002EA071 /* PostBottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostBottomBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,7 +126,6 @@
 				4CCF93C725F70609002EA071 /* Assets.xcassets */,
 				4CCF93CC25F70609002EA071 /* Persistence.swift */,
 				4CCF93D125F70609002EA071 /* Info.plist */,
-				4CCF93F625F70E43002EA071 /* NavView.swift */,
 				4CCF93CE25F70609002EA071 /* InstragramClone.xcdatamodeld */,
 				4CCF93C925F70609002EA071 /* Preview Content */,
 				4CCF93FB25F71060002EA071 /* Fonts */,
@@ -188,8 +187,8 @@
 		4CCF941D25F7295E002EA071 /* Posts */ = {
 			isa = PBXGroup;
 			children = (
-				4CCF941E25F72984002EA071 /* PostHeader.swift */,
-				4CCF942625F72CDA002EA071 /* PostBottomBar.swift */,
+				4CCF941E25F72984002EA071 /* PostHeaderView.swift */,
+				4CCF942625F72CDA002EA071 /* PostBottomBarView.swift */,
 				4C900E8225F7FB0600F905D2 /* LikesBarView.swift */,
 				4C900E8725F7FB5700F905D2 /* CommentsSectionView.swift */,
 			);
@@ -199,6 +198,7 @@
 		4CCF942E25F72F3C002EA071 /* Navigation Header */ = {
 			isa = PBXGroup;
 			children = (
+				4CCF93F625F70E43002EA071 /* NavView.swift */,
 			);
 			path = "Navigation Header";
 			sourceTree = "<group>";
@@ -337,11 +337,11 @@
 				4CCF940D25F717BE002EA071 /* Person.swift in Sources */,
 				4CCF93CD25F70609002EA071 /* Persistence.swift in Sources */,
 				4CCF93D025F70609002EA071 /* InstragramClone.xcdatamodeld in Sources */,
-				4CCF942725F72CDA002EA071 /* PostBottomBar.swift in Sources */,
+				4CCF942725F72CDA002EA071 /* PostBottomBarView.swift in Sources */,
 				4CCF93C625F70605002EA071 /* ContentView.swift in Sources */,
 				4CCF93F725F70E43002EA071 /* NavView.swift in Sources */,
 				4CCF93C425F70605002EA071 /* InstragramCloneApp.swift in Sources */,
-				4CCF941F25F72984002EA071 /* PostHeader.swift in Sources */,
+				4CCF941F25F72984002EA071 /* PostHeaderView.swift in Sources */,
 				4CCF941625F72081002EA071 /* StoryView.swift in Sources */,
 				4C900E8825F7FB5700F905D2 /* CommentsSectionView.swift in Sources */,
 				4C900E8325F7FB0600F905D2 /* LikesBarView.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PostBottomBar: View {
+struct PostBottomBarView: View {
     var body: some View {
 		
 		HStack(spacing: 12) {

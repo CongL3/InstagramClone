@@ -36,14 +36,14 @@ struct ContentView: View {
 							LazyVStack(alignment: .leading, spacing: 5) {
 								ForEach(people, id: \.id) { person in
 									
-									PostHeader(person: person)
+									PostHeaderView(person: person)
 									
 									Image(person.image)
 										.resizable()
 										.aspectRatio(contentMode: .fill)
 
 
-									PostBottomBar()
+									PostBottomBarView()
 									
 									LikesBarView()
 									

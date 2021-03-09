@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PostHeader: View {
+struct PostHeaderView: View {
 	var person: Person
     var body: some View {
 		HStack(spacing: 5) {
