@@ -46,5 +46,10 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OleoScript-Regular</string>
+		<string>OleoScript-Bold</string>
+	</array>
 </dict>
 </plist>

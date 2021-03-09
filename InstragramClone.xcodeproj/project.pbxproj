@@ -15,6 +15,9 @@
 		4CCF93D025F70609002EA071 /* InstragramClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93CE25F70609002EA071 /* InstragramClone.xcdatamodeld */; };
 		4CCF93DB25F70609002EA071 /* InstragramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93DA25F70609002EA071 /* InstragramCloneTests.swift */; };
 		4CCF93E625F70609002EA071 /* InstragramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93E525F70609002EA071 /* InstragramCloneUITests.swift */; };
+		4CCF93F725F70E43002EA071 /* NavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93F625F70E43002EA071 /* NavView.swift */; };
+		4CCF93FE25F71072002EA071 /* OleoScript-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF93FC25F71072002EA071 /* OleoScript-Regular.ttf */; };
+		4CCF93FF25F71072002EA071 /* OleoScript-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF93FD25F71072002EA071 /* OleoScript-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		4CCF93E125F70609002EA071 /* InstragramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstragramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCF93E525F70609002EA071 /* InstragramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstragramCloneUITests.swift; sourceTree = "<group>"; };
 		4CCF93E725F70609002EA071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCF93F625F70E43002EA071 /* NavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavView.swift; sourceTree = "<group>"; };
+		4CCF93FC25F71072002EA071 /* OleoScript-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OleoScript-Regular.ttf"; sourceTree = "<group>"; };
+		4CCF93FD25F71072002EA071 /* OleoScript-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OleoScript-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +107,13 @@
 			children = (
 				4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */,
 				4CCF93C525F70605002EA071 /* ContentView.swift */,
+				4CCF93F625F70E43002EA071 /* NavView.swift */,
 				4CCF93C725F70609002EA071 /* Assets.xcassets */,
 				4CCF93CC25F70609002EA071 /* Persistence.swift */,
 				4CCF93D125F70609002EA071 /* Info.plist */,
 				4CCF93CE25F70609002EA071 /* InstragramClone.xcdatamodeld */,
 				4CCF93C925F70609002EA071 /* Preview Content */,
+				4CCF93FB25F71060002EA071 /* Fonts */,
 			);
 			path = InstragramClone;
 			sourceTree = "<group>";
@@ -134,6 +142,15 @@
 				4CCF93E725F70609002EA071 /* Info.plist */,
 			);
 			path = InstragramCloneUITests;
+			sourceTree = "<group>";
+		};
+		4CCF93FB25F71060002EA071 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF93FD25F71072002EA071 /* OleoScript-Bold.ttf */,
+				4CCF93FC25F71072002EA071 /* OleoScript-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CCF93CB25F70609002EA071 /* Preview Assets.xcassets in Resources */,
+				4CCF93FF25F71072002EA071 /* OleoScript-Bold.ttf in Resources */,
 				4CCF93C825F70609002EA071 /* Assets.xcassets in Resources */,
+				4CCF93FE25F71072002EA071 /* OleoScript-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +287,7 @@
 				4CCF93CD25F70609002EA071 /* Persistence.swift in Sources */,
 				4CCF93D025F70609002EA071 /* InstragramClone.xcdatamodeld in Sources */,
 				4CCF93C625F70605002EA071 /* ContentView.swift in Sources */,
+				4CCF93F725F70E43002EA071 /* NavView.swift in Sources */,
 				4CCF93C425F70605002EA071 /* InstragramCloneApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
