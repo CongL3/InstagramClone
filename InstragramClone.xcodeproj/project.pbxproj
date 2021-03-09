@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCF93C425F70605002EA071 /* InstragramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */; };
+		4CCF93C625F70605002EA071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93C525F70605002EA071 /* ContentView.swift */; };
+		4CCF93C825F70609002EA071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF93C725F70609002EA071 /* Assets.xcassets */; };
+		4CCF93CB25F70609002EA071 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF93CA25F70609002EA071 /* Preview Assets.xcassets */; };
+		4CCF93CD25F70609002EA071 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93CC25F70609002EA071 /* Persistence.swift */; };
+		4CCF93D025F70609002EA071 /* InstragramClone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93CE25F70609002EA071 /* InstragramClone.xcdatamodeld */; };
+		4CCF93DB25F70609002EA071 /* InstragramCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93DA25F70609002EA071 /* InstragramCloneTests.swift */; };
+		4CCF93E625F70609002EA071 /* InstragramCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93E525F70609002EA071 /* InstragramCloneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCF93D725F70609002EA071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCF93B825F70605002EA071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCF93BF25F70605002EA071;
+			remoteInfo = InstragramClone;
+		};
+		4CCF93E225F70609002EA071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCF93B825F70605002EA071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCF93BF25F70605002EA071;
+			remoteInfo = InstragramClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCF93C025F70605002EA071 /* InstragramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstragramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstragramCloneApp.swift; sourceTree = "<group>"; };
+		4CCF93C525F70605002EA071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CCF93C725F70609002EA071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCF93CA25F70609002EA071 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CCF93CC25F70609002EA071 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		4CCF93CF25F70609002EA071 /* InstragramClone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = InstragramClone.xcdatamodel; sourceTree = "<group>"; };
+		4CCF93D125F70609002EA071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCF93D625F70609002EA071 /* InstragramCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstragramCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCF93DA25F70609002EA071 /* InstragramCloneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstragramCloneTests.swift; sourceTree = "<group>"; };
+		4CCF93DC25F70609002EA071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCF93E125F70609002EA071 /* InstragramCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstragramCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCF93E525F70609002EA071 /* InstragramCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstragramCloneUITests.swift; sourceTree = "<group>"; };
+		4CCF93E725F70609002EA071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCF93BD25F70605002EA071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCF93D325F70609002EA071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCF93DE25F70609002EA071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCF93B725F70605002EA071 = {
+			isa = PBXGroup;
+			children = (
+				4CCF93C225F70605002EA071 /* InstragramClone */,
+				4CCF93D925F70609002EA071 /* InstragramCloneTests */,
+				4CCF93E425F70609002EA071 /* InstragramCloneUITests */,
+				4CCF93C125F70605002EA071 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCF93C125F70605002EA071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF93C025F70605002EA071 /* InstragramClone.app */,
+				4CCF93D625F70609002EA071 /* InstragramCloneTests.xctest */,
+				4CCF93E125F70609002EA071 /* InstragramCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCF93C225F70605002EA071 /* InstragramClone */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */,
+				4CCF93C525F70605002EA071 /* ContentView.swift */,
+				4CCF93C725F70609002EA071 /* Assets.xcassets */,
+				4CCF93CC25F70609002EA071 /* Persistence.swift */,
+				4CCF93D125F70609002EA071 /* Info.plist */,
+				4CCF93CE25F70609002EA071 /* InstragramClone.xcdatamodeld */,
+				4CCF93C925F70609002EA071 /* Preview Content */,
+			);
+			path = InstragramClone;
+			sourceTree = "<group>";
+		};
+		4CCF93C925F70609002EA071 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF93CA25F70609002EA071 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CCF93D925F70609002EA071 /* InstragramCloneTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF93DA25F70609002EA071 /* InstragramCloneTests.swift */,
+				4CCF93DC25F70609002EA071 /* Info.plist */,
+			);
+			path = InstragramCloneTests;
+			sourceTree = "<group>";
+		};
+		4CCF93E425F70609002EA071 /* InstragramCloneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF93E525F70609002EA071 /* InstragramCloneUITests.swift */,
+				4CCF93E725F70609002EA071 /* Info.plist */,
+			);
+			path = InstragramCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCF93BF25F70605002EA071 /* InstragramClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCF93EA25F70609002EA071 /* Build configuration list for PBXNativeTarget "InstragramClone" */;
+			buildPhases = (
+				4CCF93BC25F70605002EA071 /* Sources */,
+				4CCF93BD25F70605002EA071 /* Frameworks */,
+				4CCF93BE25F70605002EA071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstragramClone;
+			productName = InstragramClone;
+			productReference = 4CCF93C025F70605002EA071 /* InstragramClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCF93D525F70609002EA071 /* InstragramCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCF93ED25F70609002EA071 /* Build configuration list for PBXNativeTarget "InstragramCloneTests" */;
+			buildPhases = (
+				4CCF93D225F70609002EA071 /* Sources */,
+				4CCF93D325F70609002EA071 /* Frameworks */,
+				4CCF93D425F70609002EA071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCF93D825F70609002EA071 /* PBXTargetDependency */,
+			);
+			name = InstragramCloneTests;
+			productName = InstragramCloneTests;
+			productReference = 4CCF93D625F70609002EA071 /* InstragramCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CCF93E025F70609002EA071 /* InstragramCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCF93F025F70609002EA071 /* Build configuration list for PBXNativeTarget "InstragramCloneUITests" */;
+			buildPhases = (
+				4CCF93DD25F70609002EA071 /* Sources */,
+				4CCF93DE25F70609002EA071 /* Frameworks */,
+				4CCF93DF25F70609002EA071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCF93E325F70609002EA071 /* PBXTargetDependency */,
+			);
+			name = InstragramCloneUITests;
+			productName = InstragramCloneUITests;
+			productReference = 4CCF93E125F70609002EA071 /* InstragramCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCF93B825F70605002EA071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					4CCF93BF25F70605002EA071 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					4CCF93D525F70609002EA071 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4CCF93BF25F70605002EA071;
+					};
+					4CCF93E025F70609002EA071 = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 4CCF93BF25F70605002EA071;
+					};
+				};
+			};
+			buildConfigurationList = 4CCF93BB25F70605002EA071 /* Build configuration list for PBXProject "InstragramClone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCF93B725F70605002EA071;
+			productRefGroup = 4CCF93C125F70605002EA071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCF93BF25F70605002EA071 /* InstragramClone */,
+				4CCF93D525F70609002EA071 /* InstragramCloneTests */,
+				4CCF93E025F70609002EA071 /* InstragramCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCF93BE25F70605002EA071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF93CB25F70609002EA071 /* Preview Assets.xcassets in Resources */,
+				4CCF93C825F70609002EA071 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCF93D425F70609002EA071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCF93DF25F70609002EA071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCF93BC25F70605002EA071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF93CD25F70609002EA071 /* Persistence.swift in Sources */,
+				4CCF93D025F70609002EA071 /* InstragramClone.xcdatamodeld in Sources */,
+				4CCF93C625F70605002EA071 /* ContentView.swift in Sources */,
+				4CCF93C425F70605002EA071 /* InstragramCloneApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCF93D225F70609002EA071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF93DB25F70609002EA071 /* InstragramCloneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCF93DD25F70609002EA071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCF93E625F70609002EA071 /* InstragramCloneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCF93D825F70609002EA071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCF93BF25F70605002EA071 /* InstragramClone */;
+			targetProxy = 4CCF93D725F70609002EA071 /* PBXContainerItemProxy */;
+		};
+		4CCF93E325F70609002EA071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCF93BF25F70605002EA071 /* InstragramClone */;
+			targetProxy = 4CCF93E225F70609002EA071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CCF93E825F70609002EA071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCF93E925F70609002EA071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCF93EB25F70609002EA071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InstragramClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 9URT9YH7AX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InstragramClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.congle.TEAMCONG.InstragramClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCF93EC25F70609002EA071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"InstragramClone/Preview Content\"";
+				DEVELOPMENT_TEAM = 9URT9YH7AX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = InstragramClone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.congle.TEAMCONG.InstragramClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CCF93EE25F70609002EA071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9URT9YH7AX;
+				INFOPLIST_FILE = InstragramCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.congle.TEAMCONG.InstragramCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstragramClone.app/InstragramClone";
+			};
+			name = Debug;
+		};
+		4CCF93EF25F70609002EA071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9URT9YH7AX;
+				INFOPLIST_FILE = InstragramCloneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.congle.TEAMCONG.InstragramCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstragramClone.app/InstragramClone";
+			};
+			name = Release;
+		};
+		4CCF93F125F70609002EA071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9URT9YH7AX;
+				INFOPLIST_FILE = InstragramCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.congle.TEAMCONG.InstragramCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstragramClone;
+			};
+			name = Debug;
+		};
+		4CCF93F225F70609002EA071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9URT9YH7AX;
+				INFOPLIST_FILE = InstragramCloneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.congle.TEAMCONG.InstragramCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InstragramClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCF93BB25F70605002EA071 /* Build configuration list for PBXProject "InstragramClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCF93E825F70609002EA071 /* Debug */,
+				4CCF93E925F70609002EA071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCF93EA25F70609002EA071 /* Build configuration list for PBXNativeTarget "InstragramClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCF93EB25F70609002EA071 /* Debug */,
+				4CCF93EC25F70609002EA071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCF93ED25F70609002EA071 /* Build configuration list for PBXNativeTarget "InstragramCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCF93EE25F70609002EA071 /* Debug */,
+				4CCF93EF25F70609002EA071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCF93F025F70609002EA071 /* Build configuration list for PBXNativeTarget "InstragramCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCF93F125F70609002EA071 /* Debug */,
+				4CCF93F225F70609002EA071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4CCF93CE25F70609002EA071 /* InstragramClone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4CCF93CF25F70609002EA071 /* InstragramClone.xcdatamodel */,
+			);
+			currentVersion = 4CCF93CF25F70609002EA071 /* InstragramClone.xcdatamodel */;
+			path = InstragramClone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4CCF93B825F70605002EA071 /* Project object */;
+}
