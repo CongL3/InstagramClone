@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C900E8325F7FB0600F905D2 /* LikesBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C900E8225F7FB0600F905D2 /* LikesBarView.swift */; };
 		4C900E8825F7FB5700F905D2 /* CommentsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C900E8725F7FB5700F905D2 /* CommentsSectionView.swift */; };
+		4C900E9725F7FE1D00F905D2 /* ImagePinkCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C900E9625F7FE1D00F905D2 /* ImagePinkCircleView.swift */; };
 		4CCF93C425F70605002EA071 /* InstragramCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */; };
 		4CCF93C625F70605002EA071 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF93C525F70605002EA071 /* ContentView.swift */; };
 		4CCF93C825F70609002EA071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF93C725F70609002EA071 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 /* Begin PBXFileReference section */
 		4C900E8225F7FB0600F905D2 /* LikesBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikesBarView.swift; sourceTree = "<group>"; };
 		4C900E8725F7FB5700F905D2 /* CommentsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsSectionView.swift; sourceTree = "<group>"; };
+		4C900E9625F7FE1D00F905D2 /* ImagePinkCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePinkCircleView.swift; sourceTree = "<group>"; };
 		4CCF93C025F70605002EA071 /* InstragramClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstragramClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstragramCloneApp.swift; sourceTree = "<group>"; };
 		4CCF93C525F70605002EA071 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,6 +96,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C44443425F940C1000B1EA4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF942E25F72F3C002EA071 /* Navigation Header */,
+				4CCF941425F7206E002EA071 /* Stories */,
+				4CCF941D25F7295E002EA071 /* Posts */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4C44443B25F940E1000B1EA4 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4C900E9525F7FDFF00F905D2 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				4C900E9625F7FE1D00F905D2 /* ImagePinkCircleView.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		4CCF93B725F70605002EA071 = {
 			isa = PBXGroup;
 			children = (
@@ -117,9 +144,9 @@
 		4CCF93C225F70605002EA071 /* InstragramClone */ = {
 			isa = PBXGroup;
 			children = (
-				4CCF942E25F72F3C002EA071 /* Navigation Header */,
-				4CCF941425F7206E002EA071 /* Stories */,
-				4CCF941D25F7295E002EA071 /* Posts */,
+				4C44443B25F940E1000B1EA4 /* Profile */,
+				4C44443425F940C1000B1EA4 /* Home */,
+				4C900E9525F7FDFF00F905D2 /* Shared */,
 				4CCF940B25F717AC002EA071 /* Models */,
 				4CCF93C325F70605002EA071 /* InstragramCloneApp.swift */,
 				4CCF93C525F70605002EA071 /* ContentView.swift */,
@@ -336,6 +363,7 @@
 			files = (
 				4CCF940D25F717BE002EA071 /* Person.swift in Sources */,
 				4CCF93CD25F70609002EA071 /* Persistence.swift in Sources */,
+				4C900E9725F7FE1D00F905D2 /* ImagePinkCircleView.swift in Sources */,
 				4CCF93D025F70609002EA071 /* InstragramClone.xcdatamodeld in Sources */,
 				4CCF942725F72CDA002EA071 /* PostBottomBarView.swift in Sources */,
 				4CCF93C625F70605002EA071 /* ContentView.swift in Sources */,

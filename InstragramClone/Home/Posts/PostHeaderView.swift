@@ -11,14 +11,8 @@ struct PostHeaderView: View {
 	var person: Person
     var body: some View {
 		HStack(spacing: 5) {
-			Image(person.image)
-				.resizable()
-				.aspectRatio(contentMode: .fit)
-				.frame(width: 35)
-				.clipShape(Circle())
-				.overlay(Circle()
-							.stroke(Color.pink, lineWidth: 2))
-				.padding(.leading, 10)
+			
+			ImagePinkCircleView(image: person.image, width: 35)
 			
 			VStack(alignment: .leading, spacing: 0) {
 				Text(person.name)

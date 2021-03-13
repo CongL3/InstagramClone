@@ -31,14 +31,8 @@ struct StoryView: View {
 					}
 					ForEach(people, id: \.id) { person in
 						VStack {
-							Image(person.image)
-								.resizable()
-								.aspectRatio(contentMode: .fit)
-								.frame(width: 73)
-								.clipShape(Circle())
-								.overlay(Circle()
-											.stroke(Color.pink, lineWidth: 2))
-
+							
+							ImagePinkCircleView(image: person.image, width: 73)
 							
 							Text(person.name)
 								.font(.system(size: 12))
@@ -47,6 +41,7 @@ struct StoryView: View {
 					}
 				}
 			}
-		}    }
+		}
+	}
 }
 

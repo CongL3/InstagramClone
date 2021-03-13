@@ -10,6 +10,7 @@ import SwiftUI
 struct LikesBarView: View {
     var body: some View {
 		HStack {
+
 			Image("cong")
 				.resizable()
 				.aspectRatio(contentMode: .fit)

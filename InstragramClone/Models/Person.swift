@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Person : Identifiable {
+struct Person : Identifiable, Hashable {
 	var id: UUID = UUID()
 	var name: String
 	var image: String
