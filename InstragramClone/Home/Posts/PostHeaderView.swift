@@ -22,7 +22,7 @@ struct PostHeaderView: View {
 			}
 			
 			Spacer()
-			Image("dots")
+			Image("more")
 				.resizable()
 				.aspectRatio(contentMode: .fit)
 				.frame(width: 15)

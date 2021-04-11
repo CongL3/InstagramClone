@@ -61,7 +61,7 @@ struct ContentView: View {
 							Text("congL3")
 							Image("down-arrow")
 							Spacer()
-							Image("new-post")
+							Image("add")
 							Image("hamburger")
 						}
 						ScrollView {
@@ -125,13 +125,13 @@ struct ContentView: View {
 					}.navigationBarHidden(true)
 				}
 				.tabItem {
-					Image.init("profile")
+					Image.init("user")
 				}
 				
 				NavigationView {
 					VStack {
-						NavView.init(colWidth: colWidth)						
-
+//						NavView.init(colWidth: colWidth).padding(.bottom, 10)
+						
 						ScrollView {
 							StoryView(people: people)
 							
@@ -152,8 +152,46 @@ struct ContentView: View {
 									CommentsSectionView()
 								}
 							}
-						}
-					}.navigationBarHidden(true)
+						}.padding(.top, 10) // Scroll view
+					}
+					.navigationBarTitle("", displayMode: .inline)
+						.toolbar {
+							ToolbarItem(placement: .navigationBarLeading) {
+								Image("logo")
+									.renderingMode(.template)
+									.resizable()
+									.scaledToFit()
+									.frame(height:65)
+							}//: TOOLBAR ITEM LEFT
+				
+							ToolbarItem(placement: .navigationBarTrailing) {
+								HStack(alignment:.center, spacing:25){
+									
+									Button(action:{
+										print("Go to messages")
+									}){
+										ZStack{
+											Image("messages")
+												.resizable()
+												.scaledToFill()
+												.frame(width: 25, height: 25, alignment: .center)
+											
+											Text("3")
+												.font(Font.system(size: 13, weight: .bold))
+												.frame(width:18, height:18)
+												.background(Color.red)
+												.foregroundColor(.white)
+												.clipShape(Circle())
+												.offset(
+													x: 9,
+													y: -9
+												)
+										}//: ZSTACK
+									}
+								}//: HSTACK
+							}//: TOOLBAR ITEM RIGHT
+						}//: TOOLBAR
+
 				}
 				
 				.tabItem {
@@ -173,7 +211,7 @@ struct ContentView: View {
 					}
 				}
 				.tabItem {
-					Image.init("new-post")
+					Image.init("add")
 				}
 				NavigationView {
 					VStack {

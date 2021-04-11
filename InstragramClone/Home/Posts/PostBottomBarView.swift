@@ -11,13 +11,22 @@ struct PostBottomBarView: View {
     var body: some View {
 		
 		HStack(spacing: 12) {
-			PostBottomBarImageView(name: "heart")
+
+			Image("like")
+				.resizable()
+				.aspectRatio(contentMode: .fit)
+				.frame(width: 25)
 				.padding(.leading, 10)
 
-			PostBottomBarImageView(name: "comment")
+			Image("comment")
+				.resizable()
+				.aspectRatio(contentMode: .fit)
+				.frame(width: 25)
 
-			PostBottomBarImageView(name: "forward")
-
+			Image("share")
+				.resizable()
+				.aspectRatio(contentMode: .fit)
+				.frame(width: 25)
 			
 			Spacer()
 
