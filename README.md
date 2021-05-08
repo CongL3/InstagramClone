@@ -2,4 +2,4 @@
 
 learning SwiftUI
 
-<img src=".instagram1.gif" width="200">
+<img src="./instagram1.gif" width="200">
