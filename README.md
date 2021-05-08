@@ -1,4 +1,5 @@
 # Instagram Clone
 
+learning SwiftUI
 
-Purpose is to learn SwiftUI
+<img src=".instagram1.gif" width="200">
